@@ -1,0 +1,28 @@
+/* all page styles  */
+body{
+    background-image: url(./photos/tasty-pizza-near-ingredients_23-2147772080.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#a{
+    text-align: center;
+    background-color: brown;
+    color: chocolate;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#b{
+    background-color: brown;
+    
+}
+
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
