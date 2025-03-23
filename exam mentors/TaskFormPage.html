@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Add Task</h1>
+        <a href="index.html" class="back-btn">Back to Tasks</a>
+    </header>
+
+    <main>
+        <form id="task-form">
+            <label for="title"> Title </label>
+            <input type="text" name="title" id="title" required>
+            <label for="description"> Description </label>
+            <textarea name="description" id="description" rows="4"></textarea>
+            <label for="due-date"> Due Date </label>
+            <input type="date" name="due-date" id="due-date" required>
+            <button type="submit"> Save Task </button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task Manager </title>
+    <link rel="stylesheet" href="./style.css"">
+</head>
+<body>
+    <header>
+        <h1> Task Manager </h1>
+        <a href="./TaskFormPage.html" class="add-task-btn"> Add Task </a>
+    </header>
+
+    <main>
+        <section id="task-list">
+            <h2> Your Tasks </h2>
+            <div class="task">
+                <input type="checkbox" id="task1">
+                <label for="task1"> Complite Project Proposal </label>
+                <span class="due-date"> Due: 2025-10-15 </span>
+                <button class="edit-btn"> Edit </button>
+                <button class="delete-btn"> Delete </button>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task2">
+                <label for="task2"> Buy Groceries </label>
+                <span class="due-date"> Due: 2025-10-12 </span>
+                <button class="edit-btn"> Edit </button>
+                <button class="delete-btn"> Delete </button>
+            </div>
+        </section>
+        
+        <section id="api-data">
+            <h2> Today's Weather </h2>
+            <div class="weather-info">
+                <p> ☀️ Sunny , 12*C </p>
+                <p> Georgia: Rustavi </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

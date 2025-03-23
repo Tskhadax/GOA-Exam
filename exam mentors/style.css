@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom:10px ;
+}
+
+#add-task-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 1rem;
+}
+
+#task-list {
+    margin-bottom: 2rem;
+}
+
+.task{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 1rem;
+    color: #777;
+}
+
+.task label {
+    flex-grow: 1;
+}
+
+.task .due-data {
+    margin-right: 1rem;
+    color: #777;
+}
+
+.task .edit-btn , .task .delete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.task .delete-btn{
+    background-color: #f44336;
+}
+
+#api-data {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.weather-info p {
+    margin: 0.5rem 0;
+}
+
+.add-task-btn{
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.add-task-btn:hover{
+    background-color: #555;
+}
+
+#task-form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+#task-form label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#task-form input, #task-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px dolid #ccc;
+    border-radius: 5px;
+}
+
+#task-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#task-form button:hover{
+    background-color: #45a049;
+}
+
+.back-btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover{
+    background-color: #555;
+}
+
+@media (max-width:768px) {
+    header {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    #add-task-btn, .back-btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .task {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .task .due-date {
+        margin: 0.5rem 0;
+    }
+
+    .task .edit-btn , .task .deleye-btn{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+}
